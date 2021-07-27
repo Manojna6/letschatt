@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="chat_page.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <h1>Lets Chat</h1>
+    <button id="logout" onclick="logout()">Logout</button>
+    <hr>
+    <br>
+    <div id="chat_container"></div>
+    <hr>
+    <div id="chat">
+        <h4>Send a message:</h4>
+        <input id="messageipt" placeholder="Message" type="text">
+        <br>
+        <br>
+        <button id="send" onclick="send()">Send</button>
+    </div>
+    <script src="chat_page.js"></script>
+</body>
+</html>

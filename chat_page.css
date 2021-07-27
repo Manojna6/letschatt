@@ -1,0 +1,29 @@
+body{
+    background-color: lavender;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    border-width: 1px;
+    background-color: black;
+    border-color: black;
+}
+
+button{
+    background-color: black; 
+    color: lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#messageipt{
+    width:80%;
+    border-color: black;
+    background-color:black;
+    color:white;
+    border-radius: 2px;
+    border: 2px;
+}

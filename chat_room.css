@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: lavender;
+}
+#addRoom{
+   background-color: black; 
+   color: #e6e6fa;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-width: 1px;
+   border-radius: 20px;
+   padding: 5px;
+}
+#logout{
+    background-color: black; 
+    color: lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 5px;
+ }
+#heading1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#slogan{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hchatrooms{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    border-width: 1px;
+    background-color: black;
+    border-color: black;
+}

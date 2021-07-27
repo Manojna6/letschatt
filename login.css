@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(131, 40, 40, 0.644);
+    text-align: center;
+}
+#login_info{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 40px;
+    padding: 20px;
+    border: black;
+    border-radius: 20px;
+    border-width: 2px;
+    
+}

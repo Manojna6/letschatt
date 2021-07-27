@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="chat_room.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Room</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <h1 id="heading1">Let's Chat</h1>
+    <h5 id="slogan">Chat Anytime, Anywhere!</h5>
+    <span><button id="logout" onclick="logout()">Logout</button></span>
+    <h2 id="username"></h2>
+    <hr>
+    <br>
+    <input id="roomname" placeholder="room name">
+    <button id="addRoom" onclick ="addRoom()">Add Room</button>
+    <br>
+    <hr>
+    <h2 id="hchatrooms">Chat Rooms</h2>
+    <div id="output">
+    </div>
+    <script src="chat_room.js"></script>
+</body>
+</html>
